@@ -1,0 +1,79 @@
+.name-update {
+    border-radius: 3px;
+    height: 20px;
+    font-family: unset;
+    position: relative;
+    left: 55px;
+    top: 5px;
+}
+
+.surname-update{
+    border-radius: 3px;
+    height: 20px;
+    font-family: unset;
+    position: relative;
+    left: 47px;
+}
+
+.country-update {
+    border-radius: 3px;
+    height: 20px;
+    font-family: unset;
+    position: relative;
+    left: 53px;
+}
+
+.button-update{
+    width: 300px;
+    height: 36px;
+    background-color: orange;
+    font-family: unset;
+    font-size: 16.5px;
+    position: relative;
+    left: 1px;
+    top: -10px;
+}
+
+.update-class{
+    position: absolute;
+    /* left: 50px;
+    top: 20px; */
+    left: 469px;
+    top: 270px;
+    background: rgba(0, 0, 0, 0.9);
+    width: 390px;
+    height: 314px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.name-div{
+    position: relative;
+    top: 19px;
+    right: 22px
+}
+
+.surname-div{
+    position: relative;
+    top: 11px;
+    right: 22px
+}
+
+.country-div{
+    position: relative;
+    top: -3px;
+    right: 22px 
+}
+
+.button-closePopup{
+    background: rgba(0, 0, 0, 1.4);
+    border-color: rgba(0, 0, 0, 0.9);
+    font-family: unset;
+    color: white;
+    position: relative;
+    right: 173px;
+    top: 8px;
+    border-radius: 2px;
+
+}

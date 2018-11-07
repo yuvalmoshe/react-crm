@@ -1,0 +1,11 @@
+.row{
+padding:15px;
+width: 350px;
+text-align: center;
+}
+
+.row-first{
+    position: relative;
+    top:20px;
+    margin: 5px;
+}

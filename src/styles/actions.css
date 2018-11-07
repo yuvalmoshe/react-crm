@@ -1,0 +1,95 @@
+.update{
+    font-family: unset;
+}
+
+.addNewClient{
+    width: 230px;
+    height: 40px;
+    background-color: orange;
+    font-family: unset;
+    font-size: 16.5px;
+}
+
+.input-client{
+    border-radius: 5px;
+    height: 20px;
+    font-family: unset;
+    position: relative;
+    left: 10px;
+}
+
+.first-name{
+    border-radius: 5px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.surname{
+    border-radius: 5px;
+    height: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.country{
+    border-radius: 5px;
+    height: 20px;
+    position: relative;
+    left: 25px;
+}
+
+.owner{
+    border-radius: 5px;
+    height: 20px;
+    position: relative;
+    left: 33px;
+}
+
+.option{
+    border-radius: 5px;
+    height: 25px;
+    width: 90px;
+    font-family: unset;
+    position: absolute;
+    top: 110px;
+    left: 162px;
+}
+
+.transfer{
+    color: orange;
+    font-family: unset;
+    position: absolute;
+    left: 286px;
+    top: 114px;
+}
+
+.send{
+    color: orange;
+    font-family: unset;
+    position: absolute;
+    left: 286px;
+    top: 158px;
+}
+
+.send-email{
+    border-radius: 5px;
+    height: 25px; 
+    font-family: unset;
+    position: absolute;
+    top: 156px;
+    left: 162px;
+}
+
+.declare{
+    color: orange;
+    font-family: unset;
+    position: absolute;
+    top: 197px;
+    left: 286px;
+}
+
+.action{
+    position: absolute;
+    left: 50px;
+}

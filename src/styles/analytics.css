@@ -1,0 +1,87 @@
+.iconNewClients{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.iconEmail{
+    position: relative;
+    left: 360px;
+    bottom: 79px;
+}
+
+.iconUser{
+position: relative;
+left: 695px;
+bottom: 173px;
+}
+
+.iconGlobe{
+position: relative;
+left: 1018px;
+bottom: 262px;
+}
+
+.emailType{
+    font-family: sans-serif;
+    font-size: 39px;
+    position: absolute;
+    left: 520px;
+    bottom: 500px;
+}
+
+.emailsSent{
+    font-family: inherit;
+    font-size: 16px;
+    position: absolute;
+    left: 515px;
+    bottom: 480px;
+}
+
+.sold{
+    font-family: sans-serif;
+    font-size: 39px;
+    position: absolute;
+    left: 850px;
+    bottom: 500px;
+}
+
+.soldClient{
+    font-family: inherit;
+    font-size: 16px;
+    position: absolute;
+    left: 850px;
+    bottom: 480px;
+}
+
+.country1{
+    font-family: inherit;
+    font-size: 16px;
+    position: absolute;
+    left: 1150px;
+    bottom: 480px;  
+}
+
+.newClients{
+    font-family: inherit;
+    font-size: 16px;
+    position: absolute;
+    left: 170px;
+    bottom: 480px; 
+}
+
+.firstContact{
+    font-family: sans-serif;
+    font-size: 39px;
+    position: absolute;
+    left: 170px;
+    bottom: 500px;
+}
+
+.countrySale{
+    font-family: sans-serif;
+    font-size: 39px;
+    position: absolute;
+    left: 1150px;
+    bottom: 500px;
+}

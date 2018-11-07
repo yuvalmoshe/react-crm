@@ -1,0 +1,31 @@
+.main {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+    font-family: unset;
+    height: 40px;
+  }
+
+ .nav{
+     margin-left: 130px;
+     text-align: center;
+
+ }
+
+ .col-1{
+     margin: 25px;
+     width: 90%;
+ }
+
+ .options{
+    border-radius: 3px;
+    height: 30px; 
+    width: 100px;
+    font-family: unset;
+    position: absolute;
+    top: 64px;
+    left: 222px;
+ }
+ 
