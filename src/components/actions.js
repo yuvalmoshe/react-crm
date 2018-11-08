@@ -35,7 +35,7 @@ class Actions extends Component {
     }
 
     componentDidMount = async () => {
-        let actions = await axios.get("http://localhost:5555/actions")
+        let actions = await axios.get("/actions")
         this.setState({
             users: actions.data //  אקסיוס מגיש אובייקט אבל אנחנו רוצים מערך לכן נעשה .דטה כדי להכנס לתוך המערך
         })
@@ -54,7 +54,7 @@ class Actions extends Component {
 
     transferLink = () => {
         let wanted = this.findClient(); //מציאת הלקוח
-        axios.post('http://localhost:5555/clients/' + wanted._id, { owner: this.state.owner })
+        axios.post('/clients/' + wanted._id, { owner: this.state.owner })
         .then(this.setClients)
     }
 
@@ -66,19 +66,19 @@ class Actions extends Component {
 
     sendLink = () => {
         let wantedEmail = this.findClient(); //מציאת הלקוח בעזרת הפונקציה
-        axios.post('http://localhost:5555/clientsEmail/' + wantedEmail._id, { emailType: this.state.emailType })
+        axios.post('/clientsEmail/' + wantedEmail._id, { emailType: this.state.emailType })
         .then(this.setClients)
     }
 
     declareLink = () => {
         let wantedClientsSold = this.findClient();
-        axios.post('http://localhost:5555/clientsSold/' + wantedClientsSold._id, { sold: this.state.sold })
+        axios.post('/clientsSold/' + wantedClientsSold._id, { sold: this.state.sold })
         .then(this.setClients)
     }
 
     inputAdd = async (inputs) => {
         let addClient = {name: inputs.textName + " " + inputs.textSurname, country: inputs.textCountry, owner: inputs.textOwner}
-            await axios.post('http://localhost:5555/clientsAdd', addClient)
+            await axios.post('/clientsAdd', addClient)
     }
 
     render() {

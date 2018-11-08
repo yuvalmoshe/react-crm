@@ -15,7 +15,7 @@ class Analytics extends Component {
         }
     }
     componentDidMount = async() => {
-        let analytics = await axios.get("http://localhost:5555/analytics")
+        let analytics = await axios.get("/analytics")
         this.setState({
             users: analytics.data 
         })

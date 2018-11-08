@@ -15,7 +15,7 @@ class Clients extends Component {
         }
     }
     componentDidMount = async() => {
-        let clients = await axios.get("http://localhost:5555/clients")
+        let clients = await axios.get("/clients")
         // console.log(clients)
         this.setState({
             users: clients.data //אקסיוס מגיש אובייקט אבל אנחנו רוצים מערך
